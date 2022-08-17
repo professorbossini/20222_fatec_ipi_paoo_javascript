@@ -1,3 +1,81 @@
+
+
+// const devolveUmValor = () => 2
+// console.log(devolveUmValor())
+// console.log(devolveUmValor)
+
+// const exibeOi = nome => console.log(`Oi, ${nome}`)
+// exibeOi('João')
+
+
+
+// const dobro = (valor) => valor * 2
+// const dobro = (valor) => { return valor * 2 }
+// console.log(dobro(1))
+
+// const hello = () => console.log('Hello')
+
+// hello()
+
+// () => {}
+
+// const triplo = function (n = 5){
+//   return n * 3
+// }
+
+// console.log(triplo(7))
+// console.log(triplo())
+// console.log(triplo(undefined))
+// console.log(triplo(null))
+// console.log(triplo('abc'))
+// // function triplo (n = 5){
+//   return n * 3;
+// }
+
+
+// const dobro = function (n) {
+//   return (
+//     n * 2
+//   );
+// }
+
+// const res = dobro(3)
+// console.log(res)
+
+
+// function soma (a, b){
+//   if (a !== 0 && b !== 0)
+//     return a + b;
+// }
+// const res = soma(0, 0)
+
+// console.log(res)
+
+
+// function oi(){
+//   console.log('oi')
+// }
+
+// oi('Maria', 'João')
+// // definição da função
+// function hello(){
+//   console.log('Oi')
+// }
+// // essa é a chamada da função, é onde dizemos que ela deve ser colocada em execução
+// hello()
+
+// function hello (nome){
+//   console.log(`Oi, ${nome}`)
+// }
+// hello('Pedro')
+
+
+// int soma (int a, int b){
+//   return a + b;
+// }
+
+
+
 // //mais antigo: function
 // //mais moderno: arrow functions
 
