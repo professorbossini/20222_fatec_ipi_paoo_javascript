@@ -1,4 +1,156 @@
+//3 Uma concessionária tem CNPJ e endereço. Ela possui
+//um carro em estoque. Ele tem marca, modelo e ano de fabricação.
+let concessionaria = {
+  cnpj: '62.555.326/0001-27',
+  endereco: {
+    logradouro: 'Rua C',
+    numero: 500,
+    bairro: 'Vila J'
+  },
+  carros: [
+    {
+      marca: 'BMW',
+      modelo: "X1",
+      anoFabricacao: 2022
+    },
+    {
+      marca: 'Fiat',
+      modelo: 'Uno',
+      anoFabricacao: 1997
+    },
+    {
+      marca: 'Jeep',
+      modelo: 'Compass',
+      anoFabricacao: 2020
+    }
+  ]
+}
 
+// //2 Uma pessoa que se chama Maria, tem 21 anos e mora na rua B,
+// //número 121
+// let maria = {
+//   nome: "Maria",
+//   idade: 21,
+//   endereco: {
+//     logradouro: 'Rua B',
+//     numero: 121
+//   }
+// }
+
+// console.log(`
+//   ${maria.nome},
+//   ${maria['idade']},
+//   ${maria.endereco.logradouro},
+//   ${maria['endereco']['numero']},
+//   ${maria['endereco'].numero}
+// `)
+// Qual o seu nome?,Qual o seu e-mail?
+// André,andre@email.com
+// Jaqueline,jaqueline@email.com
+
+// let exemplo = {
+//  'Qual o seu nome?': 'André',
+//  'Qual o seu e-mail?': 'andre@email.com' 
+// }
+
+// console.log(exemplo['Qual o seu nome?'])
+
+
+
+
+// //uma pessoa que se chama João e que tem 17 anos
+// let pessoa = {
+//   nome: "João",
+//   idade: 17
+// }
+// // console.log(pessoa)
+// console.log("Meu nome é: " + pessoa.nome)
+// console.log(`Meu nome é ${pessoa.nome}`)
+// const nome = pessoa.nome
+// console.log("Tenho " + pessoa[`idade`] + " anos")
+
+
+// function saudacoesFactory(saudacao, nome){
+//   return function(){
+//     console.log (`${saudacao}, ${nome}`)
+//   }
+// }
+
+// let ola = saudacoesFactory('Olá', 'Jaqueline')
+// let ateLogo = saudacoesFactory('Até logo', 'Jaqueline')
+
+// ola()
+// ateLogo()
+
+
+// function ola(){
+//   let nome = 'Jaqueline'
+//   return function(){
+//     console.log(`Olá, ${nome}`)
+//   }
+// }
+
+// let olaResult = ola()
+// olaResult()
+
+// function f (){
+//   let nome = "Ana"
+//   function g(){
+//     console.log(nome)
+//   }
+//   g()
+// }
+// f()
+
+
+// //função de alta ordem (higher order function)
+// function f (funcao){
+//   //callable
+//   funcao()
+// }
+// //função de alta ordem (higher order function)
+// function g(){
+//   function outraFuncao(){
+//     console.log("Fui criada por G")
+//   }
+//   return outraFuncao
+// }
+// f(g)()
+// f(g())
+
+// f(g)
+// f(g())
+// f(g()())
+// const gResult = g()
+// // console.log(gResult)
+// gResult()
+// g()()
+// console.log(g()())
+// g()()()
+
+
+
+// let umaFuncao = function () {
+//   console.log('Fui armazenada em uma variável')
+// }
+// umaFuncao()
+
+
+// f(function(){console.log("Estou sendo passada para f")})
+
+// class Teste{
+//   void m1 (Method m){
+//     m()
+//   }
+
+//   void m2(){
+
+//   }
+
+//   main(){
+//     m1(m2)
+//   }
+// }
 
 // const devolveUmValor = () => 2
 // console.log(devolveUmValor())
