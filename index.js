@@ -1,30 +1,44 @@
+//uma calculadora que faz operações de soma e subtração envolvendo dois operandos
+let calculadora = {
+  soma: (a, b) => a + b,
+  subtracao: function (a, b){
+     return a - b
+  }
+}
+
+const res = calculadora.soma(2, 3)
+const outroRes = calculadora['subtracao'](5, 2)
+console.log(outroRes)
+
+
+
 //3 Uma concessionária tem CNPJ e endereço. Ela possui
 //um carro em estoque. Ele tem marca, modelo e ano de fabricação.
-let concessionaria = {
-  cnpj: '62.555.326/0001-27',
-  endereco: {
-    logradouro: 'Rua C',
-    numero: 500,
-    bairro: 'Vila J'
-  },
-  carros: [
-    {
-      marca: 'BMW',
-      modelo: "X1",
-      anoFabricacao: 2022
-    },
-    {
-      marca: 'Fiat',
-      modelo: 'Uno',
-      anoFabricacao: 1997
-    },
-    {
-      marca: 'Jeep',
-      modelo: 'Compass',
-      anoFabricacao: 2020
-    }
-  ]
-}
+// let concessionaria = {
+//   cnpj: '62.555.326/0001-27',
+//   endereco: {
+//     logradouro: 'Rua C',
+//     numero: 500,
+//     bairro: 'Vila J'
+//   },
+//   carros: [
+//     {
+//       marca: 'BMW',
+//       modelo: "X1",
+//       anoFabricacao: 2022
+//     },
+//     {
+//       marca: 'Fiat',
+//       modelo: 'Uno',
+//       anoFabricacao: 1997
+//     },
+//     {
+//       marca: 'Jeep',
+//       modelo: 'Compass',
+//       anoFabricacao: 2020
+//     }
+//   ]
+// }
 
 // //2 Uma pessoa que se chama Maria, tem 21 anos e mora na rua B,
 // //número 121
